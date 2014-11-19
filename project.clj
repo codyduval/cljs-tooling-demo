@@ -16,4 +16,9 @@
                 :output-to "clock.js"
                 :output-dir "out"
                 :optimizations :none
-                :source-map true}}]})
+                :source-map true}}
+             {:id "prod"
+              :source-paths ["src"]
+              :compiler {
+                :optimizations :advanced
+                :output-to "clock_prod.js"}}]})
