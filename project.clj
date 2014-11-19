@@ -21,4 +21,5 @@
               :source-paths ["src"]
               :compiler {
                 :optimizations :advanced
+                :externs []
                 :output-to "clock_prod.js"}}]})
