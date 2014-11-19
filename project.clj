@@ -21,5 +21,5 @@
               :source-paths ["src"]
               :compiler {
                 :optimizations :advanced
-                :externs []
+                :externs ["resources/moment-externs.js"]
                 :output-to "clock_prod.js"}}]})
